@@ -1,0 +1,24 @@
+/* styles.css */
+
+div {
+    color: white;
+    background-color: black;
+  }
+
+p {
+color: red;
+}
+
+* {
+    border: 2px solid red;
+  }
+  
+  /* padding increases the space between the border of a box and the content of the box.
+
+margin increases the space between the borders of a box and the borders of adjacent boxes.
+
+border adds space (even if it’s only a pixel or two) between the margin and the padding. 
+
+the difference between display: inline-block and display: 
+block is that, with display: block, a line break happens after the element
+*/
