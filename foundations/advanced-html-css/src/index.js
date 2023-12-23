@@ -1,25 +1,5 @@
-// import _ from 'lodash';
-
-// function component() {
-//   const element = document.createElement('div');
-
-// // Lodash, now imported by this script
-//   element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-
-//   return element;
-// }
-
-// document.body.appendChild(component());
-
 // import your function
-import myName from './myName';
+import {setup} from './setup';
+import './styles.css';
 
-function component() {
-  const element = document.createElement('div');
-
-  // use your function!
-  element.textContent = myName('Samuel');
-  return element;
-}
-
-document.body.appendChild(component());
+setup();

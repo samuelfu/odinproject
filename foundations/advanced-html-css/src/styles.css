@@ -1,0 +1,16 @@
+.tabs {
+    display: flex;
+    justify-content: center;
+    gap: 5vh;
+}
+
+.headline {
+    display: flex;
+    justify-content: center;
+    margin: 10vh;
+}
+
+.tagline {
+    display: flex;
+    justify-content: center;
+}
