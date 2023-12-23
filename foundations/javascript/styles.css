@@ -1,0 +1,16 @@
+/* styles.css */
+#container {
+    padding: 8px;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    gap: 3px;
+}
+
+.col:hover {
+    background-color: blue;
+}
